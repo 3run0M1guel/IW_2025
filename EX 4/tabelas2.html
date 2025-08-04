@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas2</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse
+        }
+        caption{
+            font-size: 22px;
+            font-weight: bold;
+            padding: 10px;
+        }
+        th, td{
+            border: 1px solid black; 
+            padding: 10px;
+        }
+        img{
+            height: 50px;
+            width: 75px;
+        }
+    </style>
+</head>
+<body>
+    <h1>EXERCITANDO TABELAS COM IMAGENS</h1>
+    <table>
+        <caption>COMIDAS FAVORITAS</caption>
+        <thead>
+            <tr>
+                <th>Grupos</th>
+                <th>Nomes</th>
+                <th colspan="3" scope="colgroup">Escolhas</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th colspan="2">Total</th>
+                <th colspan="3">12 Opções </th>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <th rowspan="2">Mulheres</th>
+                <td>Julia</td>
+                <td><img src="img/abacaxi.png" alt=""></td>
+                <td><img src="img/banana.png" alt=""></td>
+                <td><img src="img/pera.jpg" alt=""></td>
+            </tr>
+            <tr>
+                <td>Cindy</td>
+                <td><img src="img/carne.png" alt=""></td>
+                <td><img src="img/Sorvete.png" alt=""></td>
+                <td><img src="img/arroz e feijao.avif" alt=""></td>
+            </tr>
+            <tr>
+                <th rowspan="2">Homens</th>
+                <td>Jacinto</td>
+                <td><img src="img/bolo.png" alt=""></td>
+                <td><img src="img/bala.jpg" alt=""></td>
+                <td><img src="img/melancia.png" alt=""></td>
+            </tr>
+            <tr>
+                <td>Raimundo</td>
+                <td><img src="img/manga png.png" alt=""></td>
+                <td><img src="img/maça.png" alt=""></td>
+                <td><img src="img/uva.png" alt=""></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
